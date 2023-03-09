@@ -88,6 +88,10 @@ overflow: hidden;
 -webkit-line-clamp: 1;
 }
 
+.contact-last{
+  height: 7em;
+}
+
 @media (max-width: 1322px) {
   #contacts {
     width: 40%;
