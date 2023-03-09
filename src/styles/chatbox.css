@@ -1,0 +1,17 @@
+#chatbox{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+
+@media (max-width: 500px) {
+    #contact-info {
+      width: 0%;
+    }
+    #chatbox {
+      width: 100%;
+    }
+    #contacts{
+        width: 0%;
+    }
+  }

@@ -1,0 +1,86 @@
+nav{
+    height: 100%;
+    width: 100%;
+    background-color: var(--app-container);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col{
+    height: 70%;
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.left,.right{
+    width: 25%;
+}
+
+.left h1{
+    color: var(--main-color);
+    margin: 0;
+    font-size: 2.3rem;
+    margin-left: 20px;
+}
+
+.left h1 span{
+    color: blueviolet;
+}
+
+.centre{
+    width: 50%;
+    justify-content: center;
+    /* background-color: bisque; */
+}
+
+.centre input{
+    border: none;
+    font-size: 22px;
+    padding: 7px;
+    padding-left: 20px;
+    color: #555;
+    width: 70%;
+    border-radius: 24px;
+    background-color: var(--search-area-bg);
+    outline: none;
+    box-shadow: 0 2px 6px 0 rgba(116, 128, 152, 0.479),0 24px 20px -24px rgba(71,82,107,.1);
+}
+
+.centre i{
+    position: relative;
+    left: -34px;
+    cursor: pointer;
+}
+
+.right #menu-icons{
+    width: 15em;
+    height: 100%;
+    position: absolute;
+    right: 0em;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-evenly;
+}
+
+.right #menu-icons i{
+   font-size: 30px;
+   cursor: pointer;
+   color: var(--secondary-color);
+}
+
+.right #menu-icons h1{
+    font-weight: 100;
+    color: grey;
+}
+
+.right #menu-icons .user-pic{
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: #000;
+}
+
