@@ -81,28 +81,6 @@ function Contacts() {
             </p>
           </div>
         </div>
-        <div className="contact">
-          <div className="contact-dp"></div>
-          <div className="user-details">
-            <h4>Lucas Rodriguez</h4>
-            <p>
-              Hey there! Just wanted to check in and see how you're doing. I
-              hope you're having a great day so far. Let me know if you need
-              anything or if you want to grab coffee sometime soon. Take care!"
-            </p>
-          </div>
-        </div>
-        <div className="contact">
-          <div className="contact-dp"></div>
-          <div className="user-details">
-            <h4>Chloe Anderson</h4>
-            <p>
-              Hey there! Just wanted to check in and see how you're doing. I
-              hope you're having a great day so far. Let me know if you need
-              anything or if you want to grab coffee sometime soon. Take care!"
-            </p>
-          </div>
-        </div>
         <div className="contact-last">
 
         </div>

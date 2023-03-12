@@ -51,7 +51,7 @@ body {
   font-family: Poppins;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   #contacts {
     width: 0%;
   }
@@ -61,4 +61,4 @@ body {
   #contact-info {
     width: 0%;
   }
-}
+} */

@@ -52,6 +52,12 @@
 color: blueviolet;
 }
 
+#contact-pfp {
+  background-image: url("https://i.pinimg.com/564x/f8/14/fd/f814fdec514688fbec67c79f477a61b9.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
 
 #chat-options{
   width: 13em;
@@ -73,7 +79,56 @@ color: blueviolet;
 .convo-box{
   width: 100%;
   height: 75%;
-  background-color: aquamarine;
+  overflow-y: scroll;
+}
+
+.recipient-message-container{
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding-left: 12px;
+  /* background-color: blue; */
+}
+
+.recipient{
+  /* position: absolute; */
+  height:auto;
+  max-width: 20em;
+  width: auto;
+  background-color:rgb(52, 51, 51);
+  color: #fff;
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.sender-message-container{
+  width: 100%;
+  min-height: 4em;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.sender{
+  max-width: 22em;
+  height: auto;
+  width: auto;
+  background-color:blueViolet;
+  color: #fff;
+  border-radius:20px;
+  border-top-left-radius: 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
 .send-msg-row{
@@ -92,25 +147,30 @@ color: blueviolet;
   display: flex;
   align-items: center;
   border-radius: 10px;
+  background-color: var(--search-area-bg);
+  outline: none;
+  box-shadow: 0 2px 6px 0 rgba(116, 128, 152, 0.479),0 24px 20px -24px rgba(71,82,107,.1);
 }
 
 #input-cont i{
   padding: 10px;
   font-size: 30px;
-  cursor: pointer;;
+  cursor: pointer;
+  
 }
 
 .send-msg-input{
   font-size: 18px;
   padding: 5px;
-  background-color: var(--contact-color-hover);
+  background-color: transparent;
   border: none;
   outline: 0;
   justify-self: center;
   flex: 1;
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     #contact-info {
       width: 0%;
     }
